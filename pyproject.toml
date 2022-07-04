@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "monopoly"
+version = "0.1.0"
+description = "Monopoly simulation with 4 profiles pre defined"
+authors = ["samuel <contato@samuellm.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dynaconf = "^3.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4"
+ipdb = "^0.13.4"
+pytest-cov = "^2.11.1"
+flake8 = "^3.8.4"
+isort = "^5.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
